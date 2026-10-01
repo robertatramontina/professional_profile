@@ -7,15 +7,27 @@ body {
     line-height: 1.6;
     background-color: #0b1120;
     color: #e5e7eb;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav {
+    font-family: monospace;
+    font-size: 20px;
     background-color: #111827;
     padding: 18px;
     text-align: center;
     position: sticky;
     top: 0;
     }
+
+nav a {
+    color: #38bdf8;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    }    
 
 nav a:hover {
     text-decoration: none;
@@ -70,13 +82,13 @@ section h2::before {
 figure {
     text-align: center;
     margin: 30px auto;
+    width: 210px;
 }
 
 figure img {
-    width: 60%;
-    max-width: 700px;
-    border: 2px solid #38bdf8;
-    border-radius: 15px;
+    width: 100%;
+    border: 3px solid #38bdf8;
+    border-radius: 50%;
 }
 
 /* tabela */
@@ -106,7 +118,7 @@ tr:hover td {
     background-color: #334155;
 }
 
-/* links e certificacoes */
+/* certificacoes */
 .certificates {
     display: flex;
     gap: 20px;
@@ -126,10 +138,26 @@ tr:hover td {
     width: 100px;
 }
 
-.certificate a {
+.certificate a {    
     color: #38bdf8;
 }
 
+/* links */
+.links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.links img {
+    width: 40px;
+    height: 40px;
+}
+
+.links a {
+    color: #38bdf8;
+}
 
 /* formulário */
 form {
@@ -219,6 +247,7 @@ button:hover {
     nav {
         display: flex;
         flex-direction: column;
+        position: static;   
     }
 
     nav a {

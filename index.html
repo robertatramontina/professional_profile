@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-pt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,18 +13,20 @@
       <a href="index.html#me">SOBRE MIM</a>
       <a href="index.html#hobby">HOBBIES</a>
       <a href="index.html#schedule">HORÁRIOS</a>
-      <a href="index.html#link">LINKS</a>
-      <a href="index.html#form">CONTACTOS</a>
       <a href="pages/networking.html">REDES</a>
-      <a href="pages/cybersecurity.html">CYBERSEGURANÇA</a>
+      <a href="pages/cybersecurity.html">CIBERSEGURANÇA</a>
     </nav>
     <br />
     <header>
       <h1>Roberta Tramontina</h1>
       <p>Networking | Cybersecurity | Software Development</p>
+      <p>
+        Construindo soluções e aprofundando conhecimentos em redes, segurança e
+        desenvolvimento de software.
+      </p>
     </header>
     <figure>
-      <img src="images/ideias.png" alt="Ilustração sobre tecnologia e ideias" />
+      <img src="images/profile_photo.png" alt="Foto de perfil" />
     </figure>
 
     <!-- Secção: Sobre mim -->
@@ -33,35 +35,39 @@
 
       <h3>Quem sou eu</h3>
       <p>
-        Sou Roberta Tramontina, Técnica Especialista em Redes e Sistemas
-        Informáticos e em Cibersegurança, atualmente a aprofundar conhecimentos
-        em desenvolvimento de software.
+        Sou Técnica Especialista em Redes e Sistemas Informáticos e em Cibersegurança, com experiência prática em administração de redes, segurança defensiva, monitorização, análise de vulnerabilidades e automação.
       </p>
       <p>
-        O meu percurso combina conhecimentos de redes, sistemas e cibersegurança
-        com uma formação atual em desenvolvimento de software. Neste espaço
-        apresento alguns dos projetos, tecnologias e competências que tenho
-        desenvolvido ao longo da minha formação.
+        Atualmente, estou a aprofundar as minhas competências em Desenvolvimento de Software, com foco em programação, algoritmos, desenvolvimento web e bases de dados. O meu objetivo é combinar os conhecimentos adquiridos em redes e cibersegurança com novas competências em desenvolvimento, construindo um perfil técnico multidisciplinar.
       </p>
+      <p>
+        Neste portfólio, partilho o meu percurso, as tecnologias com que trabalho e os projetos que desenvolvo ao longo da minha evolução profissional.
+        </p>
 
       <div class="skills">
         <div class="skill">
           <h3>Networking</h3>
-          <p>Redes, routing, switching e administração de sistemas.</p>
+          <p>
+            Redes, routing, switching, TCP/IP, Firewalls, VPNs e administração
+            de sistemas.
+          </p>
         </div>
 
         <div class="skill">
           <h3>Cybersecurity</h3>
-          <p>Segurança de redes, análise de vulnerabilidades e compliance.</p>
+          <p>
+            Segurança de redes, análise de vulnerabilidades, SIEM, hardening e
+            frameworks de segurança e compliance.
+          </p>
         </div>
 
         <div class="skill">
           <h3>Development</h3>
-          <p>HTML, CSS, C# e desenvolvimento de software.</p>
+          <p>HTML, CSS, GitHub, C#</p>
         </div>
       </div>
 
-      <h3 id="hobby">Os Meus Hobbies</h3>
+      <h3 id="hobby">Os meus hobbies</h3>
 
       <ul>
         <li>Gosto cozinhar e experimentar receitas diferentes.</li>
@@ -128,60 +134,66 @@
 
     <!-- Secção Links e Certificações -->
     <section id="certifications">
-      <h2>Certificações e Perfis</h2>
-
-      <h3>Certificações</h3>
+      <h2>Certificações</h2>
 
       <div class="certificates">
         <div class="certificate">
           <img src="images/security-plus.png" alt="Badge CompTIA Security+" />
           <h4>CompTIA Security+</h4>
-          <a href="https://www.credly.com/badges/53a42d04-b56a-4fa8-9af4-63a45a70753e/linked_in_profile" target="_blank">Ver credencial</a>
+          <a
+            href="https://www.credly.com/badges/53a42d04-b56a-4fa8-9af4-63a45a70753e/linked_in_profile"
+            target="_blank"
+            >Ver credencial</a
+          >
         </div>
 
-        <div class="certificate" class="badge-img">
+        <div class="certificate">
           <img
             src="images/isc2-cc.png"
             alt="Badge ISC2 Certified in Cybersecurity"
           />
           <h4>ISC2 Certified in Cybersecurity</h4>
-          <a href="https://www.credly.com/badges/d8528eb8-8c78-4937-aad3-11a182e8b898/linked_in_profile" target="_blank">Ver credencial</a>
+          <a
+            href="https://www.credly.com/badges/d8528eb8-8c78-4937-aad3-11a182e8b898/linked_in_profile"
+            target="_blank"
+            >Ver credencial</a
+          >
         </div>
       </div>
+    </section>
+    <!-- Secção Contacto -->
+    <section>
+      <div class="contact">
+        <h2 id="form">Fale Comigo:</h2>
+        <form action="utils/success.html">
+          <label for="name">Nome:</label>
+          <input id="name" type="text" required />
 
-      <h3 id="link">Perfis</h3>
+          <br />
 
-      <p>
+          <label for="phone">Telefone:</label>
+          <input id="phone" type="number" required />
+
+          <br />
+          <br />
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar Formulário</button>
+        </form>
+      </div>
+
+      <div class="links">
         <a
           href="https://www.linkedin.com/in/roberta-tramontina-net/"
           target="_blank"
         >
-          LinkedIn
+          <img src="images/linkedin.png" alt="" />
         </a>
 
         <a href="https://github.com/robertatramontina" target="_blank">
-          GitHub
+          <img src="images/github.png" alt="" />
         </a>
-      </p>
-    </section>
-    <!-- Secção Contacto -->
-    <section>
-      <h2 id="form">Fale Comigo:</h2>
-      <form action="utils/success.html">
-        <label for="name">Nome:</label>
-        <input id="name" type="text" required />
-
-        <br />
-
-        <label for="phone">Telefone:</label>
-        <input id="phone" type="number" required />
-
-        <br />
-        <br />
-
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpar Formulário</button>
-      </form>
+      </div>
     </section>
   </body>
 </html>
